@@ -1,7 +1,7 @@
 package src.interfaces;
-import src.modules.materia;
+import src.modules.Materia;
 
 public interface Estudiante {
-    public void agregarMateria(materia materia);
-    public void calcularPromedio();
+    public void agregarMateria(Materia materia);
+    public double calcularPromedio();
 }
